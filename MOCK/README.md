@@ -12,7 +12,7 @@ This project demonstrates a simple form submission using Node.js and MongoDB. Th
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/simple-form-submission.git
+   git clone https://github.com/yuke001/mock.git
    cd simple-form-submission
    ```
 
