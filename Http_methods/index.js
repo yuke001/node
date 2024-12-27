@@ -72,7 +72,9 @@ let server = createServer((req, res) => {
           await client.connect();
           let db = client.db("contactDB");
           let collection = db.collection("contacts");
+
           await collection.insertOne(parsedBody);
+          
           res.writeHead(200, { "Content-Type": "text/html" });
           res.end("<h1>Thanks For Contacting Us!</h1>");
         } catch (err) {

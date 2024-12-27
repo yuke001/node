@@ -1,13 +1,17 @@
-let a =2 ;
+// Named Exports
 
-let b =()=>{
+let a = 2;
+let b = () => {
+  return 10;
+};
 
-    return 10 ;
+module.exports = {
+  a,
+  b,
+};
 
-}
-module.exports={
-a,
-b
-}
 
+let yuke="hi da sunni";
+
+module.exports=yuke;
 
